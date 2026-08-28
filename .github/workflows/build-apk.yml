@@ -9,9 +9,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
-        with: { java-version: '17', distribution: 'temurin' }
-      - run: chmod +x gradlew
-      - run: ./gradlew assembleDebug
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+      - run: |
+          curl -L https://services.gradle.org/distributions/gradle-8.2-bin.zip -o gradle.zip
+          unzip -q gradle.zip
+          ./gradle-8.2/bin/gradle wrapper --gradle-version 8.2
+          rm -rf gradle-8.2 gradle.zip
+          chmod +x gradlew
+      - run: ./gradlew assembleDebug --no-daemon
       - uses: actions/upload-artifact@v4
         with:
           name: DoudouTalking-APK
