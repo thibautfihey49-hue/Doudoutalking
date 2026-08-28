@@ -1,12 +1,15 @@
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="200dp" android:height="200dp"
-    android:viewportWidth="200" android:viewportHeight="200">
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
   <path android:fillColor="#757575" android:pathData="M100,40c-40,0 -70,30 -70,70s30,70 70,70s70,-30 70,-70s-30,-70 -70,-70z"/>
-  <circle android:fillColor="#616161" android:cx="50" android:cy="50" android:r="20"/>
-  <circle android:fillColor="#616161" android:cx="150" android:cy="50" android:r="20"/>
-  <circle android:fillColor="#212121" android:cx="75" android:cy="85" android:r="8"/>
-  <circle android:fillColor="#212121" android:cx="125" android:cy="85" android:r="8"/>
-  <ellipse android:fillColor="#424242" android:cx="100" android:cy="115" android:rx="12" android:ry="8"/>
-  <path android:strokeColor="#424242" android:strokeWidth="3" android:fillColor="#00000000"
-      android:pathData="M85,130 Q100,140 115,130"/>
+  <path android:fillColor="#616161" android:pathData="M50,30a20,20 0 1,1 0,40 20,20 0 1,1 0,-40z"/>
+  <path android:fillColor="#616161" android:pathData="M150,30a20,20 0 1,1 0,40 20,20 0 1,1 0,-40z"/>
+  <path android:fillColor="#212121" android:pathData="M75,77a8,8 0 1,1 0,16 8,8 0 1,1 0,-16z"/>
+  <path android:fillColor="#212121" android:pathData="M125,77a8,8 0 1,1 0,16 8,8 0 1,1 0,-16z"/>
+  <path android:fillColor="#424242" android:pathData="M88,115a12,8 0 1,0 24,0 12,8 0 1,0 -24,0z"/>
+  <path android:strokeColor="#424242" android:strokeWidth="3" android:fillColor="#00000000" android:pathData="M85,130 Q100,140 115,130"/>
+  <path android:fillColor="#BDBDBD" android:pathData="M55,100a10,10 0 1,1 0,20 10,10 0 1,1 0,-20z"/>
+  <path android:fillColor="#BDBDBD" android:pathData="M145,100a10,10 0 1,1 0,20 10,10 0 1,1 0,-20z"/>
 </vector>
