@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources><color name="doudou_gray">#757575</color><color name="white">#FFFFFFFF</color></resources>
+<resources>
+    <color name="doudou_gray">#757575</color>
+    <color name="doudou_dark">#616161</color>
+    <color name="doudou_cheek">#BDBDBD</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_gradient">#FFF3E0</color>
+    <color name="bg_dark">#FFE0B2</color>
+    <color name="brown_dark">#5D4037</color>
+    <color name="accent_orange">#FF9800</color>
+    <color name="accent_pink">#E91E63</color>
+    <color name="accent_blue">#2196F3</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="accent_purple">#9C27B0</color>
+    <color name="accent_yellow">#FFC107</color>
+</resources>
