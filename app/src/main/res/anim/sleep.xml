@@ -3,5 +3,6 @@
     <alpha android:fromAlpha="1.0" android:toAlpha="0.6"
         android:duration="500" android:fillAfter="true"/>
     <scale android:fromYScale="1.0" android:toYScale="0.95"
-        android:pivotY="bottom" android:duration="500"/>
+        android:pivotX="50%" android:pivotY="100%"
+        android:duration="500"/>
 </set>
